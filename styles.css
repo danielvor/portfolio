@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+nav {
+    background-color: #2980b9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1;
+    transform: scale(1.1);
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 15px;
+}
+
+#perfil-github {
+    text-align: center;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+#github-avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3498db;
+}
+
+#repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.repo {
+    flex: 0 0 30%;
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.repo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de artigos do Medium */
+session #medium-articles {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#medium-articles h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.medium-article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.medium-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.medium-article h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #0077b5;
+}
+
+.medium-article p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.medium-article a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.medium-article a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+

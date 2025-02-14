@@ -1,0 +1,141 @@
+:root {
+      --primary-color: #3498db;
+      --background-color: #1a1a1a;
+      --text-color: #fff;
+      --card-background: rgba(255, 255, 255, 0.1);
+      --max-width: 800px; /* Largura máxima do conteúdo */
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+  }
+  
+  #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #2c3e50, var(--background-color));
+      z-index: -1;
+  }
+  
+  .conteudo {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .container {
+      width: 100%;
+      max-width: var(--max-width); /* Limita a largura máxima */
+  }
+  
+  .header {
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  .header p {
+      font-size: 1.2rem;
+      color: #ccc;
+  }
+  
+  .section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: var(--card-background);
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+  }
+  
+  .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+  }
+  
+  .timeline {
+      display: grid;
+      gap: 1.5rem;
+  }
+  
+  .timeline-item {
+      background: var(--card-background);
+      padding: 1.5rem;
+      border-left: 4px solid var(--primary-color);
+      border-radius: 5px;
+  }
+  
+  .portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+  }
+  
+  .repo-card {
+      background: var(--card-background);
+      padding: 1rem;
+      border-radius: 8px;
+      transition: transform 0.3s;
+  }
+  
+  .repo-card:hover {
+      transform: translateY(-5px);
+  }
+  
+  .contact-content a {
+      color: var(--primary-color);
+      text-decoration: none;
+  }
+  
+  .contact-content a:hover {
+      text-decoration: underline;
+  }
+  
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      background: var(--card-background);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (max-width: 600px) {
+      .header h1 {
+          font-size: 2rem;
+      }
+  
+      .header p {
+          font-size: 1rem;
+      }
+  
+      .section h2 {
+          font-size: 1.5rem;
+      }
+  
+      .footer {
+          font-size: 0.8rem;
+      }
+  
+      .container {
+          padding: 0 1rem; /* Adiciona padding nas laterais em telas pequenas */
+      }
+  }

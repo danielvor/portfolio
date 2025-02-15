@@ -3,11 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-@font-face {
-    font-family: 'Neue Machina';
-    src: url('../fonts/neue-machina-regular.otf');
-}
-
 #particles-js {
     position: absolute;
     width: 100%;
@@ -41,9 +36,6 @@ a:hover {
 .main::before,
 .main::after {
     content: '';
-    /* background-image: url('../img/background.svg');
-    background-repeat: no-repeat;
-    background-size: contain; */
     display: inline-block;
     position: fixed;
     top: 0;

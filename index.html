@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <title>Daniel V.O. Rodrigues</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/languages.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
@@ -27,25 +28,33 @@
 
 <body>
     <div id="particles-js"></div>
-    <main class="main"> 
+    <main class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img src="assets/perfil_danielrodrigues.jpeg" alt="Foto de Perfil" class="photo">
 
             <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+                Daniel Victor de Oliveira Rodrigues
             </h1>
-
             <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
-                </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
-                </p>
+                <p class="job">Software Developer Jr | Java | Python | JavaScript | C# | APIs</p>
+                <p>📧 <a href="mailto:daniel.rodrigues46@fatec.sp.gov.br">Email</a></p>
+                <p>🔗 <a href="https://linkedin.com/in/danielvor" target="_blank">LinkedIn</a></p>
+                <p>💻 <a href="https://github.com/danielvor" target="_blank">GitHub</a></p>
             </div>
         </header>
+
+        <section class="about">
+            <p id="profile.location">📌 Sou desenvolvedor Full Stack apaixonado por tecnologia e inovação. Atualmente, estudo Desenvolvimento de Software na Fatec Itaquera e trabalho como analista de risco e fraude.</p>
+            <p>📈 Meu Objetivo é colaborar em projetos inovadores que impactem positivamente usuários e empresas,
+                combinando criatividade, lógica e as melhores ferramentas do mercado.</p>
+             <p>Desenvolvo APIs RESTful integradas a bancos de dados (MongoDB, PostgreSQL, MySQL).
+                Trabalho em equipes ágeis, entregando soluções alinhadas às necessidades do negócio.
+            </p>
+            <!--
+            <p class="email">
+                <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+            </p> -->
+        </section>
 
         <section class="acordeon">
             <button class="trigger" type="button">
@@ -54,18 +63,29 @@
 
             <div class="content">
                 <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                    <section class="personal">
+                        <h3>hardSkills:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Nodejs</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>SQL & NoSQL & ORM</li>
+                            <li>Docker & Kubernets</li>
+                            <li>Git & GitHub</li>
+                            <li>Docker & Kubernets</li>
+                            <li>Azure & AWS</li>
                         </ul>
                     </section>
 
                     <section class="personal">
-                        <h3>Pessoal:</h3>
+                        <h3>SoftSkills:</h3>
                         <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                            <li>Empatia</li>
+                            <li>Liderança</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
+                            <li>Organização</li>
                         </ul>
                     </section>
                 </div>
@@ -79,7 +99,8 @@
 
             <div class="content">
                 <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                    <li>Português BR</li>
+                    <li>Inglês (avançado)</li>
                 </ul>
             </div>
         </section>
@@ -91,6 +112,30 @@
 
             <div class="content">
                 <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <a href="" target="_blank">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição do Projeto 1</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição do Projeto 1</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição do Projeto 1</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição do Projeto 1</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -102,6 +147,21 @@
 
             <div class="content">
                 <ul class="experience" id="profile.professionalExperience">
+                    <li>
+                        <h3>Analista de Risco e Fraude</h3>
+                        <p>Empresa 1</p>
+                        <p>Descrição da experiência 1</p>
+                    </li>
+                    <li>
+                        <h3>Analista de Risco e Fraude</h3>
+                        <p>Empresa 2</p>
+                        <p>Descrição da experiência 2</p>
+                    </li>
+                    <li>
+                        <h3>Analista de Risco e Fraude</h3>
+                        <p>Empresa 3</p>
+                        <p>Descrição da experiência 3</p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -113,10 +173,9 @@
         </footer>
     </main>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="assets/js/acordeon.js"></script>
-<script src="assets/js/api.js"></script>
-<script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/particles.js"></script>
 </body>
 
 </html>

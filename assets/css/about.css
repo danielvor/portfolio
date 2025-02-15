@@ -4,4 +4,5 @@
     align-items: start;
     position: relative;
     margin: 2rem auto;
+    max-width: fit-content;
 }

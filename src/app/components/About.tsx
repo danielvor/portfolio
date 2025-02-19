@@ -17,9 +17,9 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Olá, me chamo Daniel Grazziotti. Sou apaixonado por tecnologia e um
+            Olá, me chamo Daniel Rodrigues. Sou apaixonado por tecnologia e um
             entusiasta do desenvolvimento web. Tenho utilizado em meus projetos
-            React, Next.js, Node.js, Express e mais.
+            Spring, Nest.js, Django, Express e mais.
           </p>
 
           <p>
